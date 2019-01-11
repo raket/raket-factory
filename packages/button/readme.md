@@ -6,6 +6,6 @@ Proin aliquam, ligula sit amet vulputate rhoncus, odio diam ornare nibh, id feug
 
 | Prop          | Desc                      | Required  |
 | ------------- |:-------------:            | -----:|
-| text          | Button text               | $1600 |
-| type          | primary / secondary       |   $12 |
-| onClick       | callback function         |    $1 |
+| text          | Button text               | Yes    |
+| type          | primary / secondary       | No     |
+| onClick       | callback function         | No     |
