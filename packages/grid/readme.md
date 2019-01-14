@@ -22,3 +22,26 @@ Proin aliquam, ligula sit amet vulputate rhoncus, odio diam ornare nibh, id feug
 ### Grid - 3 Columns preview
 
 ![Alt text](https://github.com/DanielJohnsson87/raket-factory/blob/master/packages/grid/public/grid-3.png?raw=true "Optional Title")
+
+### React `Grid` example
+
+```jsx
+import Grid from './Grid'
+<Grid columns={'2'}>
+    <div> Item 1 </div>
+    <div> Item 2 </div>
+    <div> Item 3 </div>
+    <div> Item 4 </div>
+</Grid>
+```
+
+### Raw Html `Grid` equivalent
+
+```html
+<div class="grid grid--2">
+    <div> Item 1 </div>
+    <div> Item 2 </div>
+    <div> Item 3 </div>
+    <div> Item 4 </div>
+</div>
+```
