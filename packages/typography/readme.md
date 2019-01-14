@@ -1,6 +1,6 @@
 ---
-id: styles
-title: Styles
+id: typography
+title: Typography
 ---
 
 
@@ -8,6 +8,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, effici
 
 Proin aliquam, ligula sit amet vulputate rhoncus, odio diam ornare nibh, id feugiat erat purus eu magna. Quisque mattis dolor sed est iaculis, id fermentum lacus consequat. Aliquam erat volutpat. Pellentesque faucibus quis libero nec tristique.
 
-[Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/master/packages/styles)
+[Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/master/packages/typography)
 
-[Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/packages/styles)
+[Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/packages/typography)
