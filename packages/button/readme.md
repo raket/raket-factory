@@ -7,6 +7,8 @@ Proin aliquam, ligula sit amet vulputate rhoncus, odio diam ornare nibh, id feug
 
 [Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/master/packages/button)
 
+[Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/packages/button)
+
 
 | Prop          | Desc                      | Required  |
 | ------------- |:-------------:            | -----:|
