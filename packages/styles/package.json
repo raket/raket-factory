@@ -1,0 +1,20 @@
+{
+  "name": "raket-factory-styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html"
+  },
+  "dependencies": {
+    "style": "0.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1",
+    "sass": "^1.16.0"
+  },
+  "author": "Raket Webbyrå",
+  "license": "ISC"
+}
