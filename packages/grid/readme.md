@@ -18,7 +18,13 @@ Proin aliquam, ligula sit amet vulputate rhoncus, odio diam ornare nibh, id feug
 
 ![Alt text](https://github.com/DanielJohnsson87/raket-factory/blob/master/packages/grid/public/grid-2.png?raw=true "Optional Title")
 
-### React example
+
+### Grid - 3 Columns preview
+
+![Alt text](https://github.com/DanielJohnsson87/raket-factory/blob/master/packages/grid/public/grid-3.png?raw=true "Optional Title")
+
+### React `Grid` example
+
 ```jsx
 import Grid from './Grid'
 <Grid columns={'2'}>
@@ -29,35 +35,13 @@ import Grid from './Grid'
 </Grid>
 ```
 
-### Html example
-```
+### Raw Html `Grid` equivalent
+
+```html
 <div class="grid grid--2">
     <div> Item 1 </div>
     <div> Item 2 </div>
     <div> Item 3 </div>
     <div> Item 4 </div>
-</div>
-```
-
-### Grid - 3 Columns preview
-
-![Alt text](https://github.com/DanielJohnsson87/raket-factory/blob/master/packages/grid/public/grid-3.png?raw=true "Optional Title")
-
-### React example
-```jsx
-import Grid from './Grid'
-<Grid columns={'3'}>
-    <div> Item 1 </div>
-    <div> Item 2 </div>
-    <div> Item 3 </div>
-</Grid>
-```
-
-### Html example
-```
-<div class="grid grid--3">
-    <div> Item 1 </div>
-    <div> Item 2 </div>
-    <div> Item 3 </div>
 </div>
 ```
