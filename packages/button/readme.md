@@ -15,3 +15,18 @@ Proin aliquam, ligula sit amet vulputate rhoncus, odio diam ornare nibh, id feug
 | type          | primary / secondary       | No       | primary |
 | href          | Link target               | No       | null    |
 | action        | callback function         | No       | null    |
+
+
+## React `Button`
+ 
+```jsx harmony
+<Button type={'secondary'} href="https://raketwebbyra.se">Raket Webbyrå</Button>
+```
+
+## Html `Button` equivalent
+```html
+<a href="https://raketwebbyra.se" class="button button--secondary">
+Raket Webbyrå
+</a> 
+```
+
