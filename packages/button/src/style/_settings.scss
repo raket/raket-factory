@@ -1,0 +1,51 @@
+// Grid
+$max-width: 128rem !global;
+$base-padding: 2rem !global;
+$neat-grid: (
+        columns: 12,
+        gutter: 2rem,
+) !global;
+
+// Colors
+$white: #FFFFFF;
+$black: #000000;
+$off-white: #EEEEEE;
+$off-black: #333333;
+$ghost-black: rgba($black, .1);
+$ghost-white: rgba($white, .1);
+
+$primary-color: #bd232d;
+$secondary-color: #0095bd;
+
+// Breakpoints
+$tiny: max-width 480px;
+$small: max-width 768px;
+$medium: max-width 1024px;
+$large: max-width 1280px;
+$huge: min-width 1440px;
+
+// Font sizes
+$tiny-size: 1.2rem;
+$small-size: 1.6rem;
+$medium-size: 2.6rem;
+$large-size: 3.4rem;
+$huge-size: 6.8rem;
+
+// Typography
+$base-fonts: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$heading-fonts: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-base-size: $small-size;
+
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.25;
+
+// Other sizes
+$border-radius: .5rem;
+
+$tiny-spacing: .5rem;
+$small-spacing: 1rem;
+$medium-spacing: 2rem;
+$large-spacing: 4rem;
+$huge-spacing: 6rem;

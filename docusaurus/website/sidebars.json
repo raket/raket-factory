@@ -1,5 +1,5 @@
 {
   "docs": {
-    "Components": ["home", "grid", "button", "typography"]
+    "Components": ["grid", "button", "typography"]
   }
 }
