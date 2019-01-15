@@ -9,9 +9,9 @@ title: Typography
 
 Factory's default typography settings. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. Mauris non arcu felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. 
 
--------
+
 ## Variables
--------
+
 
 ## Colors
 ```scss
@@ -45,10 +45,8 @@ $base-fonts: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $heading-fonts: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 ```
 
-
-------
 ## Headings
-------
+
 Heading sizes are multiples of the `$font-base-size`. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. Mauris non arcu felis. 
 
 ```scss
@@ -82,9 +80,7 @@ h4, h5, h6 {
 
 ```
 
-------
 ## Links
-------
 Links use the `$primary-color` as it's default color and darkens it 10% on `:hover` and `:active`.
 
 ```scss
@@ -100,5 +96,3 @@ a {
   }
 }
 ```
-------
-------
