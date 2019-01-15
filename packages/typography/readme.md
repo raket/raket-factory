@@ -35,7 +35,7 @@ $base-line-height: 1.5;
 $heading-line-height: 1.25;
 ```
 
-### Font stack
+## Font stack
 ```scss
 // Typography
 $base-fonts: 'Helvetica Neue', Helvetica, Arial, sans-serif;
