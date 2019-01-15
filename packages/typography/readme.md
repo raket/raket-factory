@@ -10,9 +10,6 @@ title: Typography
 Factory's default typography settings. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. Mauris non arcu felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. 
 
 
-## Variables
-
-
 ## Colors
 ```scss
 $white: #FFFFFF;
