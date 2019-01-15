@@ -14,4 +14,4 @@ Proin aliquam, ligula sit amet vulputate rhoncus, odio diam ornare nibh, id feug
 | children      | Button text               | Yes      | null    |
 | type          | primary / secondary       | No       | primary |
 | href          | Link target               | No       | null    |
-| onClick       | callback function         | No       | null    |
+| action        | callback function         | No       | null    |

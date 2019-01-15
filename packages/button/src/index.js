@@ -10,9 +10,14 @@ ReactDOM.render(
       <Button>I'm primary</Button>
     </div>
 
-    <div>
+    <div style={{marginBottom: '20px'}}>
       <Button type={'secondary'}> I'm secondary!</Button>
     </div>
+
+    <div style={{marginBottom: '20px'}}>
+      <Button type={'secondary'} action={() => alert('Click!')}> onClick!</Button>
+    </div>
+
   </div>,
   document.getElementById('root')
 )
