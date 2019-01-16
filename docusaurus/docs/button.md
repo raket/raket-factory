@@ -1,1 +1,1 @@
-/Users/daniel/webb/factory-repo/packages/button/readme.md
+../../packages/button/readme.md

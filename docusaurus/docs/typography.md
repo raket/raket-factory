@@ -1,1 +1,1 @@
-/Users/daniel/webb/factory-repo/packages/typography/readme.md
+../../packages/typography/readme.md
