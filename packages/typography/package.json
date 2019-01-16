@@ -1,7 +1,7 @@
 {
   "name": "@raketwebbyra/typography",
   "version": "1.0.1-alpha.0",
-  "description": "",
+  "description": "Raket basic typography",
   "main": "public/index.html",
   "scripts": {
     "start": "parcel public/index.html --open",
