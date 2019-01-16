@@ -1,6 +1,6 @@
 {
   "name": "@raketwebbyra/grid",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0",
   "description": "A HTML / CSS grid component",
   "author": "Daniel Johnsson <danne_j87@hotmail.com>",
   "homepage": "https://github.com/DanielJohnsson87/raket-factory/tree/master/packages/grid#readme",
