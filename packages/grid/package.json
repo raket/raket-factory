@@ -21,7 +21,6 @@
     "url": "git+https://github.com/DanielJohnsson87/raket-factory.git"
   },
   "scripts": {
-    "start":
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
