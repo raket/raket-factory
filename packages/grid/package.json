@@ -5,6 +5,7 @@
   "author": "Daniel Johnsson <danne_j87@hotmail.com>",
   "homepage": "https://github.com/DanielJohnsson87/raket-factory/tree/master/packages/grid#readme",
   "license": "ISC",
+  "access": "public",
   "browser": "lib/Grid.js",
   "directories": {
     "lib": "lib",
@@ -38,5 +39,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "gitHead": "28bc47e15325915c2726e0b00f66d2990b327321"
+  "gitHead": "741f72fd69db784d08d278dd2f492b398a3f6d6b"
 }
