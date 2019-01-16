@@ -5,7 +5,7 @@
   "author": "Daniel Johnsson <danne_j87@hotmail.com>",
   "homepage": "https://github.com/DanielJohnsson87/raket-factory/tree/master/packages/grid#readme",
   "license": "ISC",
-  "main": "lib/Grid.js",
+  "browser": "lib/Grid.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,6 +21,7 @@
     "url": "git+https://github.com/DanielJohnsson87/raket-factory.git"
   },
   "scripts": {
+    "start":
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
