@@ -17,6 +17,8 @@
   },
   "author": "Raket Webbyrå",
   "license": "ISC",
-  "access": "public",
-  "gitHead": "741f72fd69db784d08d278dd2f492b398a3f6d6b"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "8b57dcb4cdd315c2c800cdae5ac2c06c4572932a"
 }

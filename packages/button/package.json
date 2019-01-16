@@ -9,6 +9,9 @@
   },
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "access": "public",
   "dependencies": {
     "node-sass": "^4.11.0",
@@ -23,5 +26,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "gitHead": "741f72fd69db784d08d278dd2f492b398a3f6d6b"
+  "gitHead": "8b57dcb4cdd315c2c800cdae5ac2c06c4572932a"
 }
