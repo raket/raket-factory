@@ -3,9 +3,9 @@ id: typography
 title: Typography
 ---
 
-[Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/master/packages/typography)
+[Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-typography-example/dionysos)
 
-[Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/packages/typography)
+[Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
 
 Factory's default typography settings. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. Mauris non arcu felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. 
 
