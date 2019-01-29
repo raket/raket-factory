@@ -60,7 +60,7 @@ Varje .col-{x} måste ha en förälder med css-klassen .row.
 ### Exempel - ändra avstånd (gutter) mellan kolumnerna
 `base/_settings.scss`
 ```scss 
-$gutter: $base; // Ändra för att juster gutter
+$gutter: $base; // Ändra för att justera gutter
 ```
 
 ### Exempel - ändra antal kolumner i gridet
