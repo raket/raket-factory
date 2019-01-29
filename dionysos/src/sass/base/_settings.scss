@@ -1,0 +1,58 @@
+/////////////////////////////////
+// Base values
+/////////////////////////////////
+$base: 16px;
+$scale: 1.4;
+
+/////////////////////////////////
+// Typography
+/////////////////////////////////
+$font-primary: sans-serif;
+$font-secondary: serif;
+
+$line-height-base: 1.5;
+$line-height-base-ex: 3ex;
+$line-height-heading: 1;
+$line-height-heading-ex: 2ex;
+
+$font-size-xxl: $base * pow($scale, 4);
+$font-size-xl: $base * pow($scale, 3);
+$font-size-l: $base * pow($scale, 2);
+$font-size-base: $base;
+$font-size-s: $base / pow($scale, 2);
+$font-size-xs: $base / pow($scale, 3);
+
+/////////////////////////////////
+// Spacing
+/////////////////////////////////
+$spacing-xxl: $base * pow($scale, 4);
+$spacing-xl: $base * pow($scale, 3);
+$spacing-l: $base * pow($scale, 2);
+$spacing-base: $base;
+$spacing-s: $base / pow($scale, 1);
+$spacing-xs: $base / pow($scale, 2);
+
+/////////////////////////////////
+// Layout
+/////////////////////////////////
+$paragraph-width: $base * 30; //480
+$max-width: $paragraph-width * 3; //1440
+$gutter: $base;
+
+/////////////////////////////////
+// Colors
+/////////////////////////////////
+$color-base: #102650;
+$color-negative: #fff; //Todo: Namngivning?
+$color-primary: #8186F7;
+$color-secondary: #BFE9AA;
+
+$color-border: #d6d6d6;
+$color-input-bg: #efefef;
+$color-invalid: #cc0000;
+$color-success: #58cc5e;
+
+/////////////////////////////////
+// Misc
+/////////////////////////////////
+$border-radius-base: 3px;

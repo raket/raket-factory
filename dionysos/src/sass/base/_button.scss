@@ -1,0 +1,46 @@
+/////////////////////////////////
+// Primary button
+/////////////////////////////////
+.button,
+#{$all-buttons} {
+  border-radius: $border-radius-base;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1;
+  padding: $spacing-s;
+  text-decoration: none;
+  user-select: none;
+  outline: none;
+  vertical-align: middle;
+  background: $color-primary;
+  color: $color-negative;
+
+  &:disabled {
+    opacity: .5;
+  }
+}
+
+.button:focus,
+.button:active,
+.button:hover,
+#{$all-buttons-focus},
+#{$all-buttons-active},
+#{$all-buttons-hover} {
+  background: darken($color-primary, 10%);
+  color: $color-negative;
+}
+
+/////////////////////////////////
+// Secondary button
+/////////////////////////////////
+.button--secondary {
+  background: $color-secondary;
+  color: $color-negative;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: darken($color-secondary, 10%);
+    color: $color-negative;
+  }
+}

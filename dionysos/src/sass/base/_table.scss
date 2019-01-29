@@ -1,0 +1,30 @@
+/////////////////////////////////
+// Table
+/////////////////////////////////
+$table-border-color: $color-border;
+$table-head-color: #cacaca;
+$table-row-alternate-color: #e6e6e6;
+table {
+  border: 1px solid $table-border-color;
+  border-collapse: collapse;
+  margin-bottom: $base*3;
+
+  thead th,
+  tfoot th {
+    background: $table-head-color;
+  }
+
+  th,
+  td {
+    padding: .5em;
+    border: 1px solid $color-border;
+  }
+
+  tr:nth-child(even) {
+    background: $table-row-alternate-color;
+  }
+
+  tr:nth-child(odd) {
+    color: $color-base;
+  }
+}

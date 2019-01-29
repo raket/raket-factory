@@ -1,0 +1,53 @@
+/////////////////////////////////
+// Form
+/////////////////////////////////
+#{$all-text-inputs} {
+  width: 100%;
+  max-width: $paragraph-width;
+  background: $color-input-bg;
+  border: 1px solid $color-border;
+  border-radius: $border-radius-base;
+  padding: .5em 1em;
+  margin-bottom: 1em;
+  outline: none;
+}
+
+#{$all-text-inputs-focus} {
+  border: 1px dashed;
+}
+
+#{$all-text-inputs-invalid} {
+  border: 1px dashed $color-invalid;
+}
+
+select {
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  //background-image: url();   //Todo: add custom arrow
+  padding: .5em 3em .5em 1em;
+  outline: none;
+  border-radius: $border-radius-base;
+  border: 1px solid $color-border;
+  background: $color-input-bg;
+  line-height: 1.15;
+
+  &:focus {
+    border: 1px dashed;
+  }
+
+  &:invalid {
+    border: 1px dashed $color-invalid;
+  }
+}
+
+select::-ms-expand {
+  display: none; // Hide the default arrow in ie10 and ie11
+}
+
+form {
+  label {
+    display: block;
+  }
+}

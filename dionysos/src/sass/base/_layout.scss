@@ -1,0 +1,67 @@
+/////////////////////////////////
+// Layout
+/////////////////////////////////
+.section {
+  padding: $spacing-xl 0;
+
+  &--no-padding {
+    padding: 0;
+  }
+}
+
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $gutter;
+
+  &--no-padding {
+    padding: 0;
+  }
+}
+
+/////////////////////////////////
+// Grid
+/////////////////////////////////
+$custom-grid: (
+        columns: 12,
+        gutter: $gutter,
+);
+
+.row {
+  > * {
+    min-height: $gutter * 4; //Todo: Remove
+    background: #efefef; //Todo: Remove
+  }
+}
+
+.row {
+  @include grid-container;
+}
+
+$i: for !default;
+@for $i from 1 through map-get($custom-grid, columns) {
+  .col-#{$i} {
+    @include grid-column($i, $custom-grid);
+    margin-bottom: $gutter;
+  }
+}
+
+
+.section {
+  //Margin Top & Bottom, bakgrundsfärger osv
+  .container {
+    //"Midja" - Bredd, margin left & right
+    .component {
+      // Alla komponenter vi utvecklar.
+      // Spot-block
+      // Arkivlistning
+      // Footer
+    }
+  }
+}
+
+
+
+.component {
+  // Har alltid en margin top
+}

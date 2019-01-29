@@ -1,0 +1,112 @@
+/////////////////////////////////
+// Typography
+/////////////////////////////////
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Lato');
+
+body {
+  font-size: $font-size-base;
+  font-family: $font-primary;
+
+  font-family: $font-primary;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  line-height: $line-height-base-ex;
+  color: $color-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-secondary;
+  line-height: $line-height-heading;
+  line-height: $line-height-heading-ex;
+  margin-bottom: .6ex;
+  font-weight: bold;
+}
+
+h1,
+.font-size--xxl {
+  font-size: $font-size-xxl;
+}
+
+h2,
+.font-size--xl {
+  font-size: $font-size-xl;
+}
+
+h3,
+.font-size--l {
+  font-size: $font-size-l;
+}
+
+h4,
+h5,
+h6,
+.font-size--base {
+  font-size: $font-size-base;
+}
+
+.font-size--s,
+small {
+  font-size: $font-size-s;
+}
+
+.font-size--xs {
+  font-size: $font-size-xs;
+}
+
+p {
+  margin-bottom: 2em;
+  margin-bottom: 2ex;
+  max-width: $paragraph-width;
+}
+
+ul, ol {
+  padding-left: 2.5em;
+  padding-left: 2.6ch;
+  margin-bottom: 2em;
+  margin-bottom: 2em;
+
+  li {
+    margin-bottom: 1em;
+    margin-bottom: 1ex;
+  }
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: $color-primary;
+  border: 1px dashed transparent;
+
+  &:active,
+  &:hover {
+    color: darken($color-primary, 10%);
+  }
+
+  &:focus {
+    border: 1px dashed $color-primary;
+  }
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $color-border;
+  margin: 1em 0;
+  padding: 0;
+}
+
+::selection {
+  background: $color-primary; /* WebKit/Blink Browsers */
+  color: $color-negative;
+}
+::-moz-selection {
+  background: $color-primary; /* Gecko Browsers */
+  color: $color-negative;
+}
+

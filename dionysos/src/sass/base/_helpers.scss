@@ -1,0 +1,23 @@
+/////////////////////////////////
+// Helper functions
+/////////////////////////////////
+.ruler-horizontal {
+  background: linear-gradient(
+                  to bottom,
+                  #ff9191,
+                  #ff9191 50%,
+                  #ffffff 50%,
+                  #ffffff
+  );
+  background-size: 100% $base * 2;
+}
+
+.ruler-vertical {
+  background: repeating-linear-gradient(
+                  to right,
+                  #f6ba52,
+                  #f6ba52 $base,
+                  #ffd180 $base,
+                  #ffd180 $base*2
+  );
+}
