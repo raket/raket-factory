@@ -40,6 +40,20 @@ $max-width: $paragraph-width * 3; //1440
 $gutter: $base;
 
 /////////////////////////////////
+// Breakpoints
+/////////////////////////////////
+$breakpoint-tiny: max-width 480px;
+$breakpoint-small: max-width 768px;
+$breakpoint-medium: max-width 1024px;
+$breakpoint-large: max-width 1280px;
+
+
+// Desktop ?
+// Ipad Landscape 1024
+// Ipad Portrait 768
+// Phone 480
+
+/////////////////////////////////
 // Colors
 /////////////////////////////////
 $color-base: #102650;
