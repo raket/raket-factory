@@ -72,3 +72,7 @@ $custom-grid: (
 );
 
 ```
+
+
+## Responsivitet
+//TODO: Lägg till regler och dokumentation över breakpoints
