@@ -13,6 +13,11 @@ För att hålla gridet så enkelt som möjligt och göra det enklare att anpassa
 
 ---
 ## Syntax
+
+### Exempel - Illustration
+![Layout illustration](assets/grid-illustration.png)
+
+### Exempel - Markup
 Varje .col-{x} måste ha en förälder med css-klassen .row.
 
 ```html
@@ -27,7 +32,7 @@ Varje .col-{x} måste ha en förälder med css-klassen .row.
 ```
 
 
-### Exempel - Halvor
+### Exempel - 1/2
 
 ```html
 <div class="row">
@@ -40,7 +45,7 @@ Varje .col-{x} måste ha en förälder med css-klassen .row.
 </div>
 ```
 
-### Exempel - Tredjedelar
+### Exempel - 1/3
 
 ```html
 <div class="row">

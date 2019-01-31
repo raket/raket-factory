@@ -3,6 +3,7 @@
     "Components": [
       "settings",
       "grid",
+      "layout",
       "button",
       "typography"
     ],
