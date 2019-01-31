@@ -2,7 +2,12 @@
 // Layout
 /////////////////////////////////
 .section {
-  padding: $spacing-xl 0;
+  padding: $spacing-xxl 0;
+
+  // The first section needs som extra spacing
+  &:first-of-type {
+    margin-top: $spacing-xxl;
+  }
 
   &--no-padding {
     padding: 0;
@@ -10,6 +15,7 @@
 }
 
 .container {
+  width: 100%;
   max-width: $max-width;
   margin: 0 auto;
   padding: 0 $gutter;
@@ -44,24 +50,4 @@ $i: for !default;
     @include grid-column($i, $custom-grid);
     margin-bottom: $gutter;
   }
-}
-
-
-.section {
-  //Margin Top & Bottom, bakgrundsfärger osv
-  .container {
-    //"Midja" - Bredd, margin left & right
-    .component {
-      // Alla komponenter vi utvecklar.
-      // Spot-block
-      // Arkivlistning
-      // Footer
-    }
-  }
-}
-
-
-
-.component {
-  // Har alltid en margin top
 }
