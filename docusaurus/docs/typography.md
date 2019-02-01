@@ -3,11 +3,13 @@ id: typography
 title: Typography
 ---
 
+# OBS - Det här avsnittet stämmer inte och är inte klart!
+
 [Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-typography-example/dionysos)
 
 [Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
 
-Factory's default typography settings. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. Mauris non arcu felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. 
+Factory's default typography settings. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. Mauris non arcu felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem.
 
 
 ## Colors
@@ -44,7 +46,7 @@ $heading-fonts: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 ## Headings
 
-Heading sizes are multiples of the `$font-base-size`. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. Mauris non arcu felis. 
+Heading sizes are multiples of the `$font-base-size`. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. Mauris non arcu felis.
 
 ```scss
 h1,

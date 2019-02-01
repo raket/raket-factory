@@ -24,30 +24,3 @@
     padding: 0;
   }
 }
-
-/////////////////////////////////
-// Grid
-/////////////////////////////////
-$custom-grid: (
-        columns: 12,
-        gutter: $gutter,
-);
-
-.row {
-  > * {
-    min-height: $gutter * 4; //Todo: Remove
-    background: #efefef; //Todo: Remove
-  }
-}
-
-.row {
-  @include grid-container;
-}
-
-$i: for !default;
-@for $i from 1 through map-get($custom-grid, columns) {
-  .col-#{$i} {
-    @include grid-column($i, $custom-grid);
-    margin-bottom: $gutter;
-  }
-}
