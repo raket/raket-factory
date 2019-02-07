@@ -17,12 +17,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-secondary;
+  font-family: $font-primary;
+  font-weight: bold;
+
   line-height: $line-height-heading;
   line-height: $line-height-heading-ex;
+  letter-spacing: $letter-spacing-heading;
+  letter-spacing: $letter-spacing-heading-ch;
+
   margin-bottom: .7em;
   margin-bottom: .6ex;
-  font-weight: bold;
+
+  * + & {
+    margin-top: $spacing-xl;
+  }
 }
 
 h1,
