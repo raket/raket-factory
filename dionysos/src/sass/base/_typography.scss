@@ -71,14 +71,14 @@ p {
 }
 
 ul, ol {
+  //TODO: Tabular-nums för listor och formulär
   padding-left: 2.5em;
   padding-left: 2.6ch;
-  margin-bottom: 2em;
-  margin-bottom: 2em;
+  margin-bottom: $line-height-base-ex * .5;
+  margin-top: $line-height-base-ex * .5;
 
   li {
-    margin-bottom: 1em;
-    margin-bottom: 1ex;
+    margin-bottom: 0;
   }
 }
 
