@@ -88,6 +88,9 @@ a {
   &:focus {
     border: 1px dashed $color-primary;
   }
+  &:visited {
+    color: lighten($color-primary, 10%);
+  }
 }
 
 hr {
