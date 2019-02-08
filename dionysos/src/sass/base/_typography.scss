@@ -17,12 +17,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-secondary;
+  font-family: $font-primary;
+  font-weight: bold;
+
   line-height: $line-height-heading;
   line-height: $line-height-heading-ex;
+  letter-spacing: $letter-spacing-heading;
+  letter-spacing: $letter-spacing-heading-ch;
+
   margin-bottom: .7em;
   margin-bottom: .6ex;
-  font-weight: bold;
+
+  * + & {
+    margin-top: $spacing-xl;
+  }
 }
 
 h1,
@@ -36,13 +44,13 @@ h2,
 }
 
 h3,
+h4,
+h5,
+h6,
 .font-size--l {
   font-size: $font-size-l;
 }
 
-h4,
-h5,
-h6,
 .font-size--base {
   font-size: $font-size-base;
 }
@@ -63,14 +71,14 @@ p {
 }
 
 ul, ol {
+  //TODO: Tabular-nums för listor och formulär
   padding-left: 2.5em;
   padding-left: 2.6ch;
-  margin-bottom: 2em;
-  margin-bottom: 2em;
+  margin-bottom: $line-height-base-ex * .5;
+  margin-top: $line-height-base-ex * .5;
 
   li {
-    margin-bottom: 1em;
-    margin-bottom: 1ex;
+    margin-bottom: 0;
   }
 }
 
@@ -87,6 +95,9 @@ a {
 
   &:focus {
     border: 1px dashed $color-primary;
+  }
+  &:visited {
+    color: lighten($color-primary, 10%);
   }
 }
 
@@ -108,3 +119,8 @@ hr {
   color: $color-negative;
 }
 
+code, kbd, pre, samp {
+  font-family: monospace;
+  background: darken($color-negative, 10%);
+  padding: .25ex .75ch;
+}
