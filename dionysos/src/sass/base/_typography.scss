@@ -119,3 +119,8 @@ hr {
   color: $color-negative;
 }
 
+code, kbd, pre, samp {
+  font-family: monospace;
+  background: darken($color-negative, 10%);
+  padding: .25ex .75ch;
+}
