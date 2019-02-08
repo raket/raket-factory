@@ -6,109 +6,78 @@ $custom-grid: (
         gutter: $gutter,
 );
 
-$custom-grid--tablet-down: (
-        columns: 6,
+$custom-grid--md: (
+        columns: 12,
         gutter: $gutter,
-        media: "(max-width: 1023px)",
+        media: "(max-width: 1024px)",
 );
 
 
-$custom-grid--mobile-down: (
-        columns: 4,
+$custom-grid--sm: (
+        columns: 12,
         gutter: $gutter,
-        media: "(max-width: 768px)",
+        media: "(max-width: 480px)",
 );
 
-.row {
-  > * {
-    min-height: $gutter * 4; //Todo: Remove
-    background: #efefef; //Todo: Remove
-  }
-}
 
 .row {
+  margin-left: - map-get($custom-grid, gutter);
+  margin-right: - map-get($custom-grid, gutter);
   @include grid-container;
 }
 
-$i: for !default;
+// Large / Default grid
+// .col-x
+// .col-push-x
 @for $i from 1 through map-get($custom-grid, columns) {
 
   .col-#{$i} {
     @include grid-column($i, $custom-grid);
-    margin-bottom: $gutter;
-
-    //@include grid-media($custom-grid--tablet-down) {
-    //  @if $i == 4 {
-    //    @include grid-column(3);
-    //  } @else if $i > 6 {
-    //    @include grid-column(6);
-    //  } @else {
-    //    @include grid-column($i);
-    //  }
-    //}
-
-    @include grid-media($custom-grid--tablet-down) {
-      @if $i > 6 {
-        @include grid-column(6);
-      } @else {
-        @include grid-column($i);
-      }
-    }
-
-    @include grid-media($custom-grid--mobile-down) {
-      @if $i > 4 {
-        @include grid-column(4);
-      } @else {
-        @include grid-column($i);
-      }
-    }
+    margin-bottom: map-get($custom-grid, gutter)
   }
 
-
-  //.col-1 => .col-2
-  //@if $i <= 2 {
-  //  .col-#{$i} {
-  //    @include grid-column($i, $custom-grid);
-  //    margin-bottom: $gutter;
-  //    background: red;
-  //  }
-  //
-  //} @else if $i >= 6 {
-  //  .col-#{$i} {
-  //    @include grid-column($i, $custom-grid);
-  //    margin-bottom: $gutter;
-  //
-  //    @include grid-media($custom-grid--tablet-down) {
-  //      @include grid-column(12);
-  //    }
-  //  }
-  //} @else {
-  //  //.col-#{$i} {
-  //  //  @include grid-column($i, $custom-grid);
-  //  //  margin-bottom: $gutter;
-  //  //}
-  //}
+  .col-push-#{$i} {
+    @include grid-push($i);
+  }
 
 }
 
-//@include media($mq-tablet-landscape-down) {
-//
-//}
-//.landscape {
-//  $i: for !default;
-//  @for $i from 1 through map-get($custom-grid, columns) {
-//
-//    @if $i == 6 {
-//      .col-#{$i} {
-//        @include grid-column($i*2, $custom-grid);
-//        margin-bottom: $gutter;
-//      }
-//    }
-//
-//    //.col-#{$i} {
-//    //  @include grid-column($i, $custom-grid);
-//    //  margin-bottom: $gutter;
-//    //}
-//  }
-//
-//}
+// Medium grid
+// .col-md-x
+// .col-md-push-x
+@for $i from 1 through map-get($custom-grid--md, columns) {
+
+  .col-md-#{$i} {
+    @include grid-media($custom-grid--md) {
+      @include grid-column($i);
+      margin-bottom: map-get($custom-grid--md, gutter)
+    }
+  }
+
+  .col-push-#{$i} {
+    @include grid-media($custom-grid--md) {
+      @include grid-push($i);
+    }
+  }
+
+}
+
+// Medium grid
+// .col-sm-x
+// .col-sm-push-x
+@for $i from 1 through map-get($custom-grid--sm, columns) {
+
+  .col-sm-#{$i} {
+    @include grid-media($custom-grid--sm) {
+      @include grid-column($i);
+      margin-bottom: map-get($custom-grid--sm, gutter)
+    }
+  }
+
+  .col-push-#{$i} {
+    @include grid-media($custom-grid--sm) {
+      @include grid-push($i);
+    }
+  }
+
+}
