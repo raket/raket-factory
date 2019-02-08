@@ -40,6 +40,16 @@ $max-width: $paragraph-width * 3; //1440
 $gutter: $base;
 
 /////////////////////////////////
+// Breakpoints
+/////////////////////////////////
+$mq-desktop-large-up: min-width 1440px;
+$mq-tablet-landscape-down: max-width 1024px;
+$mq-tablet-landscape-below: max-width 1023px;
+$mq-tablet-portrait-down: max-width 768px;
+$mq-tablet-portrait-below: max-width 767px;
+$mq-mobile-down: max-width 480px;
+
+/////////////////////////////////
 // Colors
 /////////////////////////////////
 $color-base: #102650;
@@ -51,6 +61,7 @@ $color-border: #d6d6d6;
 $color-input-bg: #efefef;
 $color-invalid: #cc0000;
 $color-success: #58cc5e;
+
 
 /////////////////////////////////
 // Misc

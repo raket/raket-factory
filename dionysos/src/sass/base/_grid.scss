@@ -1,0 +1,114 @@
+/////////////////////////////////
+// Grid
+/////////////////////////////////
+$custom-grid: (
+        columns: 12,
+        gutter: $gutter,
+);
+
+$custom-grid--tablet-down: (
+        columns: 6,
+        gutter: $gutter,
+        media: "(max-width: 1023px)",
+);
+
+
+$custom-grid--mobile-down: (
+        columns: 4,
+        gutter: $gutter,
+        media: "(max-width: 768px)",
+);
+
+.row {
+  > * {
+    min-height: $gutter * 4; //Todo: Remove
+    background: #efefef; //Todo: Remove
+  }
+}
+
+.row {
+  @include grid-container;
+}
+
+$i: for !default;
+@for $i from 1 through map-get($custom-grid, columns) {
+
+  .col-#{$i} {
+    @include grid-column($i, $custom-grid);
+    margin-bottom: $gutter;
+
+    //@include grid-media($custom-grid--tablet-down) {
+    //  @if $i == 4 {
+    //    @include grid-column(3);
+    //  } @else if $i > 6 {
+    //    @include grid-column(6);
+    //  } @else {
+    //    @include grid-column($i);
+    //  }
+    //}
+
+    @include grid-media($custom-grid--tablet-down) {
+      @if $i > 6 {
+        @include grid-column(6);
+      } @else {
+        @include grid-column($i);
+      }
+    }
+
+    @include grid-media($custom-grid--mobile-down) {
+      @if $i > 4 {
+        @include grid-column(4);
+      } @else {
+        @include grid-column($i);
+      }
+    }
+  }
+
+
+  //.col-1 => .col-2
+  //@if $i <= 2 {
+  //  .col-#{$i} {
+  //    @include grid-column($i, $custom-grid);
+  //    margin-bottom: $gutter;
+  //    background: red;
+  //  }
+  //
+  //} @else if $i >= 6 {
+  //  .col-#{$i} {
+  //    @include grid-column($i, $custom-grid);
+  //    margin-bottom: $gutter;
+  //
+  //    @include grid-media($custom-grid--tablet-down) {
+  //      @include grid-column(12);
+  //    }
+  //  }
+  //} @else {
+  //  //.col-#{$i} {
+  //  //  @include grid-column($i, $custom-grid);
+  //  //  margin-bottom: $gutter;
+  //  //}
+  //}
+
+}
+
+//@include media($mq-tablet-landscape-down) {
+//
+//}
+//.landscape {
+//  $i: for !default;
+//  @for $i from 1 through map-get($custom-grid, columns) {
+//
+//    @if $i == 6 {
+//      .col-#{$i} {
+//        @include grid-column($i*2, $custom-grid);
+//        margin-bottom: $gutter;
+//      }
+//    }
+//
+//    //.col-#{$i} {
+//    //  @include grid-column($i, $custom-grid);
+//    //  margin-bottom: $gutter;
+//    //}
+//  }
+//
+//}
