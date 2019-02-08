@@ -2,13 +2,11 @@
 id: layout
 title: Layout
 ---
-[TODO: Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-grid-example/dionysos)
+[Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-layout-example/dionysos)
 
 [Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
 
 I Dionysos finns en system för att hantera en hemsidas layout på ett konsekvent sätt.
-Tanken med detta är att ....
-
 
 ---
 ## Syntax
@@ -26,7 +24,8 @@ Maxbredden går att justera med den globala variablen `$max-width` i `base/_sett
 ### `.component`
 Är det minsta men också mest mångsidiga layoutelementet. I stort sett är allting som ryms i ett `.container`-element
 en `.component`. Den enda regeln för ett `.component`-element är att det själv är ansvarigt för att hålla avståndet till tidigare elementet.
-Dvs. en `.component` måste ha ett `margin-top`-värde.
+Dvs. en `.component` måste ha ett `margin-bottom` eller `margin-top`-värde. En komponent behöver nödvändigtvis inte använda `.component`-classen,
+så länge elementet håller avstånd till andra komponenter med `margin-top / margin-bottom`.  
 
 
 ### Exempel - Illustration
@@ -83,7 +82,7 @@ Dvs. en `.component` måste ha ett `margin-top`-värde.
 
 
 .component {
-    margin-top: $spacing-l;
+    margin-bottom: $spacing-l;
 }
 
 ```
