@@ -21,8 +21,8 @@ $font-size-xxl: $base * pow($scale, 3);
 $font-size-xl: $base * pow($scale, 2);
 $font-size-l: $base * pow($scale, 1);
 $font-size-base: $base;
-$font-size-s: $base / pow($scale, 2);
-$font-size-xs: $base / pow($scale, 3);
+$font-size-s: $base / pow($scale, 1);
+$font-size-xs: $base / pow($scale, 2);
 
 /////////////////////////////////
 // Spacing
