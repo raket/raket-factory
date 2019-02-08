@@ -94,6 +94,21 @@ $max-width: $paragraph-width * 3; //1440
 $gutter: $base;
 ```
 
+## Breakpoints
+Följande brytpunkter används i Dionysos. De påverkar bland annat grid och marginaler.
+
+```scss
+/////////////////////////////////
+// Breakpoints
+/////////////////////////////////
+$mq-desktop-large-up: min-width 1440px;
+$mq-tablet-landscape-down: max-width 1024px;
+$mq-tablet-landscape-below: max-width 1023px;
+$mq-tablet-portrait-down: max-width 768px;
+$mq-tablet-portrait-below: max-width 767px;
+$mq-mobile-down: max-width 480px;
+```
+
 ## Färger
 `$color-negative` används exempelvis när en negativ textfärg behövs.
 

@@ -64,19 +64,25 @@ Varje .col-{x} måste ha en förälder med css-klassen .row.
 
 ---
 ## Responsivitet
-Här kommer ett avsnitt om responsiviteten och hur gridet beter sig.
+Gridet kommer automatiskt att ändra antal kolumner allt eftersom att skärmstorleken ändras. I filen `base/_grid.scss` finns variablerna `$custom-grid--tablet-portrait-down` och `$custom-grid--mobile-down` som definerar hur gridet ska ändras vid olika brytpunkter. Dessa variabler används längre ner och räknar med hjälp av [Neat](https://neat.bourbon.io/) ut nya regler för gridet vid en viss brytpunkt. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. Mauris non arcu felis. Sed sit amet dolor ultrices, auctor urna eleifend, facilisis purus. Nam pulvinar commodo lobortis. Vestibulum quis porta tellus. Donec tristique tellus vel odio pretium scelerisque. Donec a faucibus est. Fusce finibus nulla ac tellus laoreet, vitae congue orci volutpat. Morbi posuere quis magna id vulputate.
+Om man exempelvis ändrar ett grid från 12 till 6 kolumner på en mindre skärm så kommer klasserna .col-1 till .col-6 att vara en till sex kolumner breda. Klasserna .col-7 till .col-12 kommer alla vara sex kolumner breda. 
 
-Proin aliquam, ligula sit amet vulputate rhoncus, odio diam ornare nibh, id feugiat erat purus eu magna. Quisque mattis dolor sed est iaculis, id fermentum lacus consequat. Aliquam erat volutpat. Pellentesque faucibus quis libero nec tristique.
-
+### Exempel - 6 kolumner iPad och ner
+```scss
+$custom-grid--tablet-portrait-down: (
+        columns: 6,
+        gutter: $gutter,
+        media: "(max-width: 768px)",
+);
+```
 ---
 ## Modifiera gridet
 
 
 ### Ändra antal kolumner eller gutter
 
-`base/_layout.scss`
+`base/_grid.scss`
 ```scss
 $custom-grid: (
         columns: 12, // Ändra antal kolumner

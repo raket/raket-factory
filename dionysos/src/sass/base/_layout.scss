@@ -12,6 +12,14 @@
   &--no-padding {
     padding: 0;
   }
+
+  &--no-margin {
+    &.section {
+      margin: 0;
+    }
+
+  }
+
 }
 
 .container {
@@ -23,4 +31,9 @@
   &--no-padding {
     padding: 0;
   }
+}
+
+
+.component {
+  margin-bottom: $spacing-xl;
 }
