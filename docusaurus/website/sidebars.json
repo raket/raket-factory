@@ -1,20 +1,13 @@
 {
   "docs": {
-    "Components": [
+    "Dionysos": [
+      "settings",
       "grid",
-      "button",
+      "layout",
       "typography"
     ],
-    "Guides": [
-      "guides/new-project",
-      "guides/start-existing-project",
-      "guides/launch-checklist",
-      "guides/education",
-      "guides/ssh-keys",
-      "guides/oderland-test-accounts",
-      "guides/cron-jobs-oderland",
-      "guides/share-development-db",
-      "guides/css-bem"
+    "Kodstandard": [
+      "code-standard/css-bem"
     ]
   }
 }
