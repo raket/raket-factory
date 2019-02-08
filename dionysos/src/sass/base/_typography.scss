@@ -7,7 +7,6 @@ body {
   font-size: $font-size-base;
   font-family: $font-primary;
   line-height: $line-height-base;
-  line-height: $line-height-base-ex;
   color: $color-base;
 }
 
@@ -21,12 +20,9 @@ h6 {
   font-weight: bold;
 
   line-height: $line-height-heading;
-  line-height: $line-height-heading-ex;
   letter-spacing: $letter-spacing-heading;
-  letter-spacing: $letter-spacing-heading-ch;
 
   margin-bottom: .7em;
-  margin-bottom: .6ex;
 
   * + & {
     margin-top: $spacing-xl;
@@ -65,17 +61,15 @@ small {
 }
 
 p {
-  margin-bottom: 2em;
-  margin-bottom: 2ex;
+  margin-bottom: 1em;
   max-width: $paragraph-width;
 }
 
 ul, ol {
   //TODO: Tabular-nums för listor och formulär
-  padding-left: 2.5em;
-  padding-left: 2.6ch;
-  margin-bottom: $line-height-base-ex * .5;
-  margin-top: $line-height-base-ex * .5;
+  padding-left: 1em;
+  margin-bottom: $line-height-base * .5;
+  margin-top: $line-height-base * .5;
 
   li {
     margin-bottom: 0;
@@ -101,6 +95,14 @@ a {
   }
 }
 
+blockquote {
+  margin-left: 1em;
+  margin-bottom: 1em;
+  font-size: $font-size-l;
+  color: $color-secondary;
+  max-width: $paragraph-width;
+}
+
 hr {
   display: block;
   height: 1px;
@@ -122,5 +124,7 @@ hr {
 code, kbd, pre, samp {
   font-family: monospace;
   background: darken($color-negative, 10%);
+  padding: .1em .2em;
+  margin: 0.1em; 
   padding: .25ex .75ch;
 }
