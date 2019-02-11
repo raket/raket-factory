@@ -20,7 +20,7 @@ h6 {
   font-weight: bold;
 
   line-height: $line-height-heading;
-  letter-spacing: $letter-spacing-heading;
+  letter-spacing: $letter-spacing-tight;
 
   margin-bottom: .7em;
 
@@ -97,7 +97,7 @@ a {
   }
 }
 
-blockquote {
+q, blockquote {
   padding-left: $text-indent;
   margin-bottom: 1em;
   font-size: $font-size-l;
@@ -112,6 +112,16 @@ hr {
   border-top: 1px solid $color-border;
   margin: 1em 0;
   padding: 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-variant: all-small-caps;
+  letter-spacing: $letter-spacing-large;
+
+  margin-top: 2em;
+  margin-bottom: .5em;
 }
 
 ::selection {
