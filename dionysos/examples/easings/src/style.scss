@@ -1,0 +1,54 @@
+@import "../../../src/sass/base/easings";
+
+@mixin move ($animation_name, $ease) {
+	animation-name: #{$animation_name};
+	animation-timing-function: linear;
+	@keyframes #{$animation_name} {
+		0% { transform: translateX(0px); animation-timing-function: $ease;  }
+		40% { transform: translateX(400px);  }
+		50% { transform: translateX(400px); animation-timing-function: $ease;  }
+		90% { transform: translateX(0px);  }
+		100% { transform: translateX(0px);   }
+	}
+}
+
+.button {
+	margin-left: 14px;
+}
+
+.box {
+	width: 48px;
+	height: 48px;
+	border-radius: 3px;
+	background: #5158f4;
+
+	animation-duration: 2.6s;
+	animation-iteration-count: infinite;
+
+	.ease-in-sine.running & { @include move( ease-in-sine, $ease-in-sine); }
+	.ease-in-quad.running & { @include move( ease-in-quad, $ease-in-quad); }
+	.ease-in-cubic.running & { @include move( ease-in-cubic, $ease-in-cubic); }
+	.ease-in-quart.running & { @include move( ease-in-quart, $ease-in-quart); }
+	.ease-in-quint.running & { @include move( ease-in-quint, $ease-in-quint); }
+	.ease-in-expo.running & { @include move( ease-in-expo, $ease-in-expo); }
+	.ease-in-circ.running & { @include move( ease-in-circ, $ease-in-circ); }
+	.ease-in-back.running & { @include move( ease-in-back, $ease-in-back); }
+
+	.ease-out-sine.running & { @include move( ease-out-sine, $ease-out-sine); }
+	.ease-out-quad.running & { @include move( ease-out-quad, $ease-out-quad); }
+	.ease-out-cubic.running & { @include move( ease-out-cubic, $ease-out-cubic); }
+	.ease-out-quart.running & { @include move( ease-out-quart, $ease-out-quart); }
+	.ease-out-quint.running & { @include move( ease-out-quint, $ease-out-quint); }
+	.ease-out-expo.running & { @include move( ease-out-expo, $ease-out-expo); }
+	.ease-out-circ.running & { @include move( ease-out-circ, $ease-out-circ); }
+	.ease-out-back.running & { @include move( ease-out-back, $ease-out-back); }
+
+	.ease-in-out-sine.running & { @include move( ease-in-out-sine, $ease-in-out-sine); }
+	.ease-in-out-quad.running & { @include move( ease-in-out-quad, $ease-in-out-quad); }
+	.ease-in-out-cubic.running & { @include move( ease-in-out-cubic, $ease-in-out-cubic); }
+	.ease-in-out-quart.running & { @include move( ease-in-out-quart, $ease-in-out-quart); }
+	.ease-in-out-quint.running & { @include move( ease-in-out-quint, $ease-in-out-quint); }
+	.ease-in-out-expo.running & { @include move( ease-in-out-expo, $ease-in-out-expo); }
+	.ease-in-out-circ.running & { @include move( ease-in-out-circ, $ease-in-out-circ); }
+	.ease-in-out-back.running & { @include move( ease-in-out-back, $ease-in-out-back); }
+}
