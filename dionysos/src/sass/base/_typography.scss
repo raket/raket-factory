@@ -66,10 +66,10 @@ p {
 }
 
 ul, ol {
-  //TODO: Tabular-nums för listor och formulär
+  font-variant-numeric: tabular-nums;
   padding-left: 1em;
-  margin-bottom: $line-height-base * .5;
-  margin-top: $line-height-base * .5;
+  margin-bottom: 1em;
+  margin-top: 1em;
 
   li {
     margin-bottom: 0;
@@ -96,7 +96,7 @@ a {
 }
 
 blockquote {
-  margin-left: 1em;
+  padding-left: $line-height-base * $base;
   margin-bottom: 1em;
   font-size: $font-size-l;
   color: $color-secondary;
