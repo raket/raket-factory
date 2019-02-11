@@ -7,7 +7,7 @@
   background: $color-input-bg;
   border: 1px solid $color-border;
   border-radius: $border-radius-base;
-  padding: .5em 1em;
+  padding: .5em .75em;
   margin-bottom: 1em;
   outline: none;
 }
@@ -25,12 +25,17 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  //background-image: url();   //Todo: add custom arrow
+
   padding: .5em 3em .5em 1em;
   outline: none;
   border-radius: $border-radius-base;
   border: 1px solid $color-border;
   background: $color-input-bg;
+  background-image: url('../img/caret-down.svg');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+
   line-height: 1.15;
 
   &:focus {
