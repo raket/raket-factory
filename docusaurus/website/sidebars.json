@@ -8,7 +8,10 @@
       "easings"
     ],
     "Kodstandard": [
-      "code-standard/css-bem"
+      "code-standard/css-bem",
+      "code-standard/javascript",
+      "code-standard/wordpress",
+      "code-standard/laravel"
     ]
   }
 }
