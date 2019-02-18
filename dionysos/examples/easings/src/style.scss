@@ -1,3 +1,4 @@
+@import "../../../src/sass/style.scss";
 @import "../../../src/sass/base/easings";
 
 @mixin move ($animation_name, $ease) {
@@ -19,8 +20,8 @@
 .box {
 	width: 48px;
 	height: 48px;
-	border-radius: 3px;
-	background: #5158f4;
+	border-radius: $border-radius-base;
+	background: $color-primary;
 
 	animation-duration: 2.6s;
 	animation-iteration-count: infinite;
@@ -52,3 +53,91 @@
 	.ease-in-out-circ.running & { @include move( ease-in-out-circ, $ease-in-out-circ); }
 	.ease-in-out-back.running & { @include move( ease-in-out-back, $ease-in-out-back); }
 }
+
+
+.box-background-animation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	width: 200px;
+	height: 200px;
+	border-radius: $border-radius-base;
+	background: $color-primary;
+	color: #fff;
+
+	&:hover {
+		background: darken($color-primary, 10)
+	}
+
+	.ease-in-sine & {transition: background .2s $ease-in-sine;}
+	.ease-in-quad & { transition: background .2s $ease-in-quad; }
+	.ease-in-cubic & { transition: background .2s $ease-in-cubic; }
+	.ease-in-quart & { transition: background .2s $ease-in-quart; }
+	.ease-in-quint & { transition: background .2s  $ease-in-quint; }
+	.ease-in-expo & { transition: background .2s  $ease-in-expo; }
+	.ease-in-circ & { transition: background .2s  $ease-in-circ; }
+	.ease-in-back & { transition: background .2s $ease-in-back; }
+
+	.ease-out-sine & { transition: background .2s  $ease-out-sine; }
+	.ease-out-quad & { transition: background .2s  $ease-out-quad; }
+	.ease-out-cubic & { transition: background .2s  $ease-out-cubic; }
+	.ease-out-quart & { transition: background .2s  $ease-out-quart; }
+	.ease-out-quint & { transition: background .2s  $ease-out-quint; }
+	.ease-out-expo & { transition: background .2s  $ease-out-expo; }
+	.ease-out-circ & { transition: background .2s  $ease-out-circ; }
+	.ease-out-back & { transition: background .2s  $ease-out-back; }
+
+	.ease-in-out-sine & { transition: background .2s  $ease-in-out-sine; }
+	.ease-in-out-quad & { transition: background .2s  $ease-in-out-quad; }
+	.ease-in-out-cubic & { transition: background .2s  $ease-in-out-cubic; }
+	.ease-in-out-quart & { transition: background .2s  $ease-in-out-quart; }
+	.ease-in-out-quint & { transition: background .2s  $ease-in-out-quint; }
+	.ease-in-out-expo & { transition: background .2s  $ease-in-out-expo; }
+	.ease-in-out-circ & { transition: background .2s  $ease-in-out-circ; }
+	.ease-in-out-back & { transition: background .2s  $ease-in-out-back; }
+}
+
+.box-scale-animation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	width: 200px;
+	height: 200px;
+	border-radius: $border-radius-base;
+	background: $color-primary;
+	color: #fff;
+
+	&:hover {
+		transform: scale(1.25);
+	}
+
+	.ease-in-sine & {transition: transform .2s $ease-in-sine;}
+	.ease-in-quad & { transition: transform .2s $ease-in-quad; }
+	.ease-in-cubic & { transition: transform .2s $ease-in-cubic; }
+	.ease-in-quart & { transition: transform .2s $ease-in-quart; }
+	.ease-in-quint & { transition: transform .2s  $ease-in-quint; }
+	.ease-in-expo & { transition: transform .2s  $ease-in-expo; }
+	.ease-in-circ & { transition: transform .2s  $ease-in-circ; }
+	.ease-in-back & { transition: transform .2s $ease-in-back; }
+
+	.ease-out-sine & { transition: transform .2s  $ease-out-sine; }
+	.ease-out-quad & { transition: transform .2s  $ease-out-quad; }
+	.ease-out-cubic & { transition: transform .2s  $ease-out-cubic; }
+	.ease-out-quart & { transition: transform .2s  $ease-out-quart; }
+	.ease-out-quint & { transition: transform .2s  $ease-out-quint; }
+	.ease-out-expo & { transition: transform .2s  $ease-out-expo; }
+	.ease-out-circ & { transition: transform .2s  $ease-out-circ; }
+	.ease-out-back & { transition: transform .2s  $ease-out-back; }
+
+	.ease-in-out-sine & { transition: transform .2s  $ease-in-out-sine; }
+	.ease-in-out-quad & { transition: transform .2s  $ease-in-out-quad; }
+	.ease-in-out-cubic & { transition: transform .2s  $ease-in-out-cubic; }
+	.ease-in-out-quart & { transition: transform .2s  $ease-in-out-quart; }
+	.ease-in-out-quint & { transition: transform .2s  $ease-in-out-quint; }
+	.ease-in-out-expo & { transition: transform .2s  $ease-in-out-expo; }
+	.ease-in-out-circ & { transition: transform .2s  $ease-in-out-circ; }
+	.ease-in-out-back & { transition: transform .2s  $ease-in-out-back; }
+}
+

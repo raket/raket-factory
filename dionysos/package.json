@@ -1,11 +1,11 @@
 {
   "name": "@raketwebbyra/dionysos-typography-demo",
   "version": "1.0.1-alpha.4",
-  "description": "Raket basic typography",
-  "main": "examples/typography/public/index.html",
+  "description": "Raket easing example",
+  "main": "examples/easings/public/index.html",
   "scripts": {
-    "start": "parcel examples/typography/public/index.html --open",
-    "build": "parcel build examples/typography/public/index.html"
+    "start": "parcel examples/easings/public/index.html --open",
+    "build": "parcel build examples/easings/public/index.html"
   },
   "dependencies": {
     "style": "0.0.3",

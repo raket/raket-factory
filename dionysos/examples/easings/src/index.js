@@ -1,10 +1,21 @@
-import "../../../src/sass/style.scss";
+// import "../../../src/sass/style.scss";
 import "./style.scss";
 
 let demoWrapper = document.getElementsByClassName('demo-wrapper')[0];
 let easeOptions = document.getElementsByClassName('ease-options')[0];
 let button = document.getElementsByClassName('button')[0];
-let currentEase = '';
+let currentEase = 'ease-in-sine';
+
+
+easeOptions.addEventListener('change', (e) => {
+	if( currentEase != '') demoWrapper.classList.remove(currentEase);
+
+	console.log('select', e)
+
+	currentEase = easeOptions.options[easeOptions.selectedIndex].value
+	demoWrapper.classList.add(currentEase);
+
+});
 
 button.addEventListener('click', (e) => {
 	e.preventDefault();
