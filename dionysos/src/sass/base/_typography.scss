@@ -7,7 +7,6 @@ body {
   font-size: $font-size-base;
   font-family: $font-primary;
   line-height: $line-height-base;
-  line-height: $line-height-base-ex;
   color: $color-base;
 }
 
@@ -17,12 +16,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-secondary;
-  line-height: $line-height-heading;
-  line-height: $line-height-heading-ex;
-  margin-bottom: .7em;
-  margin-bottom: .6ex;
+  font-family: $font-primary;
   font-weight: bold;
+
+  line-height: $line-height-heading;
+  letter-spacing: $letter-spacing-tight;
+
+  margin-bottom: .7em;
+
+  * + & {
+    margin-top: $spacing-xl;
+  }
 }
 
 h1,
@@ -36,13 +40,13 @@ h2,
 }
 
 h3,
+h4,
+h5,
+h6,
 .font-size--l {
   font-size: $font-size-l;
 }
 
-h4,
-h5,
-h6,
 .font-size--base {
   font-size: $font-size-base;
 }
@@ -57,20 +61,20 @@ small {
 }
 
 p {
-  margin-bottom: 2em;
-  margin-bottom: 2ex;
+  margin-bottom: 1em;
   max-width: $paragraph-width;
 }
 
 ul, ol {
-  padding-left: 2.5em;
-  padding-left: 2.6ch;
-  margin-bottom: 2em;
-  margin-bottom: 2em;
+  font-variant-numeric: tabular-nums;
+  list-style-position: inside;
+
+  padding-left: $text-indent;
+  margin-bottom: 1em;
+  margin-top: 1em;
 
   li {
-    margin-bottom: 1em;
-    margin-bottom: 1ex;
+    margin-bottom: 0;
   }
 }
 
@@ -88,6 +92,17 @@ a {
   &:focus {
     border: 1px dashed $color-primary;
   }
+  &:visited {
+    color: lighten($color-primary, 10%);
+  }
+}
+
+q, blockquote {
+  padding-left: $text-indent;
+  margin-bottom: 1em;
+  font-size: $font-size-l;
+  color: $color-secondary;
+  max-width: $paragraph-width;
 }
 
 hr {
@@ -99,6 +114,16 @@ hr {
   padding: 0;
 }
 
+label {
+  display: block;
+  font-weight: bold;
+  font-variant: all-small-caps;
+  letter-spacing: $letter-spacing-large;
+
+  margin-top: 2em;
+  margin-bottom: .5em;
+}
+
 ::selection {
   background: $color-primary; /* WebKit/Blink Browsers */
   color: $color-negative;
@@ -108,3 +133,10 @@ hr {
   color: $color-negative;
 }
 
+code, kbd, pre, samp {
+  font-family: monospace;
+  background: darken($color-negative, 10%);
+  padding: .1em .2em;
+  margin: 0.1em; 
+  padding: .25ex .75ch;
+}

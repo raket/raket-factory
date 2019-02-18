@@ -11,16 +11,19 @@ $font-primary: sans-serif;
 $font-secondary: serif;
 
 $line-height-base: 1.5;
-$line-height-base-ex: 3ex;
 $line-height-heading: 1;
-$line-height-heading-ex: 2ex;
+$letter-spacing-tight: -.025em; 
+$letter-spacing-large: .025em; 
 
-$font-size-xxl: $base * pow($scale, 4);
-$font-size-xl: $base * pow($scale, 3);
-$font-size-l: $base * pow($scale, 2);
+$font-size-xxl: $base * pow($scale, 3);
+$font-size-xl: $base * pow($scale, 2);
+$font-size-l: $base * pow($scale, 1);
 $font-size-base: $base;
-$font-size-s: $base / pow($scale, 2);
-$font-size-xs: $base / pow($scale, 3);
+$font-size-s: $base / pow($scale, 1);
+$font-size-xs: $base / pow($scale, 2);
+
+$text-indent: $base;
+
 
 /////////////////////////////////
 // Spacing
