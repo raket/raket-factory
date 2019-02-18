@@ -1,7 +1,7 @@
 {
   "name": "@raketwebbyra/dionysos-typography-demo",
   "version": "1.0.1-alpha.4",
-  "description": "Raket basic typography",
+  "description": "Raket typography example",
   "main": "examples/typography/public/index.html",
   "scripts": {
     "start": "parcel examples/typography/public/index.html --open",
