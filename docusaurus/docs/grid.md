@@ -10,7 +10,7 @@ Dionysos använder SASS-biblioteket [Bourbon Neat](https://neat.bourbon.io/) fö
 Vill du modifiera eller bygga vidare på gridet kan du läsa mer i deras [dokumentation](https://neat.bourbon.io/docs/latest/).
 
 För att hålla gridet så enkelt som möjligt och göra det enklare att anpassa efter olika ändamål har Dionysos enbart ett ganska avskalat grid. 
-Det är uppdelat i 12 kolumner och följer syntaxen `.col-{x} där x ersätts av hur många kolumner brett elementet ska vara. 
+Det är uppdelat i 12 kolumner och följer syntaxen `.col-{x}` där x ersätts av hur många kolumner brett elementet ska vara. 
 Exempelvis `.col-3` för ett element som täcker 1/4 av ytan och `.col-6`för ett som täcker 1/2 ytan.
 
 ---
