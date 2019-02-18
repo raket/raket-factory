@@ -4,8 +4,8 @@
   "description": "Raket basic typography",
   "main": "examples/typography/public/index.html",
   "scripts": {
-    "start": "parcel examples/easings/public/index.html --open",
-    "build": "parcel build examples/easings/public/index.html"
+    "start": "parcel examples/typography/public/index.html --open",
+    "build": "parcel build examples/typography/public/index.html"
   },
   "dependencies": {
     "style": "0.0.3",
