@@ -17,7 +17,7 @@ Exempelvis `.col-3` för ett element som täcker 1/4 av ytan och `.col-6`för et
 ## Syntax
 
 ### Exempel - Illustration
-![Layout illustration](assets/grid-illustration.png)
+![Layout illustration](https://raw.githubusercontent.com/DanielJohnsson87/raket-factory/master/docusaurus/docs/assets/grid-illustration.PNG)
 
 ### Exempel - Markup
 Varje .col-{x} måste ha en förälder med css-klassen .row.

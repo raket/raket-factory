@@ -1,6 +1,6 @@
 ---
 id: typography
-title: Typography
+title: Typografi
 ---
 
 # OBS - Det här avsnittet stämmer inte och är inte klart!

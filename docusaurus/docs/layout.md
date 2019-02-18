@@ -29,7 +29,7 @@ så länge elementet håller avstånd till andra komponenter med `margin-top / m
 
 
 ### Exempel - Illustration
-![Layout illustration](assets/layout-illustration.png)
+![Layout illustration](https://raw.githubusercontent.com/DanielJohnsson87/raket-factory/master/docusaurus/docs/assets/layout-illustration.PNG)
 
 ### Exempel - Markup
 ```html
