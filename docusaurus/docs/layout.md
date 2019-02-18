@@ -2,7 +2,7 @@
 id: layout
 title: Layout
 ---
-[TODO: Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-grid-example/dionysos)
+[Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-layout-example/dionysos)
 
 [Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
 
