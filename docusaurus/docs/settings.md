@@ -2,6 +2,8 @@
 id: settings
 title: Settings
 ---
+[![Edit documentation](https://img.shields.io/badge/GITHUB-edit%20doc-green.svg)](https://github.com/DanielJohnsson87/raket-factory/blob/master/docusaurus/docs/settings.md)
+[![View source](https://img.shields.io/badge/GITHUB-view%20source-green.svg)](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
 
 Vi har samlat Dionysos grundläggande inställningar i filen `base/_settings.scss`.
 Variablerna finns tillgängliga i samtliga .scss-filer och bör användas i så stor mån det är möjligt.
@@ -51,9 +53,7 @@ $font-primary: sans-serif;
 $font-secondary: serif;
 
 $line-height-base: 1.5;
-$line-height-base-ex: 3ex;
 $line-height-heading: 1;
-$line-height-heading-ex: 2ex;
 
 $font-size-xxl: $base * pow($scale, 4);
 $font-size-xl: $base * pow($scale, 3);
