@@ -32,9 +32,7 @@ $scale: 1.4;
 
 ## Typografi
 Variablerna `$font-primary` & `$font-secondary` används för att definera typsnitt för rubriker och brödtext.
-Det finns även variabler för att justera line-height för de olika typsnitten. Dionysos använder sig av [ex-enheten](https://www.w3schools.com/cssref/css_units.asp)
-för de webbläsare som har stöd för den. Poängen med ex-enheten är att typsnittens x-höjd skiljer sig mellan typsnitt och detta påverkar typografin.
-Med ex-enheten får vi mer kontroll över detta.
+Det finns även variabler för att justera line-height för de olika typsnitten. 
 
 Textstorlekarna beräknas utifrån basvärdena ovan. Varje steg beräknas enligt följande formler:
 
