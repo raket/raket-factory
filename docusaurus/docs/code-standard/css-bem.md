@@ -60,3 +60,10 @@ Airbnb’s CSS / SCSS guidelines verkar ganska bra. Kanske kan vara något?(Cam
 [https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 
 [https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/](https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/)
+
+
+## Konfiguration av PHPStorm
+Todo: Lägg till konfigurationsfil & guide för PHPStorm
+
+## Konfiguration av Scss-lint
+Todo: Lägg till guide för hur man får igång scss-lint
