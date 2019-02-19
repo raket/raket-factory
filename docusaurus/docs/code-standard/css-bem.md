@@ -3,6 +3,9 @@ id: css-bem
 title: CSS BEM
 ---
 
+[![Edit documentation](https://img.shields.io/badge/GITHUB-edit%20doc-green.svg)](https://github.com/DanielJohnsson87/raket-factory/blob/master/docusaurus/docs/code-standard/css-bem.md)
+[![View source](https://img.shields.io/badge/GITHUB-view%20source-green.svg)](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
+
 1. Vi följer “Strict BEM”
     1. Endast ett “element” i varje selector. (.block__**element**—modifier)
     2. Endast en “modifier” i varje selector. (.block__element—**modifier**)

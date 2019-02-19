@@ -2,9 +2,9 @@
 id: easings
 title: Easings
 ---
-[Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-easing-example/dionysos)
-
-[Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
+[![Edit @raketwebbyra/dionysos-typography-demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-easing-example/dionysos)
+[![Edit documentation](https://img.shields.io/badge/GITHUB-edit%20doc-green.svg)](https://github.com/DanielJohnsson87/raket-factory/blob/master/docusaurus/docs/easings.md)
+[![View source](https://img.shields.io/badge/GITHUB-view%20source-green.svg)](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
 
 I `base/_easings.scss` finns ett antal olika easings definerade. Du kan [se dem här](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-easing-example/dionysos)
 eller på [easings.net](https://easings.net/).
