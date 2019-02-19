@@ -15,7 +15,7 @@ förespråkar i sina guidelines. Vi har valt bort themes mappen, annars är allt
 ```
 sass/
 |
-|– abstracts/
+|– utilities/
 |   |– _variables.scss    # Sass Variables
 |   |– _functions.scss    # Sass Functions
 |   |– _mixins.scss       # Sass Mixins
