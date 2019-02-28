@@ -1,20 +1,20 @@
 @import '../../node_modules/bourbon/core/bourbon.scss';
 @import '../../node_modules/bourbon-neat/core/neat.scss';
 
-@import 'mixins/math';
-@import 'base/settings';
+
+@import 'utilities/math';
+@import 'utilities/easings';
+@import 'utilities/settings';
+@import 'utilities/helpers';
+
 @import 'base/reset';
-@import "base/easings";
 @import 'base/typography';
-@import 'base/button';
-@import 'base/table';
-@import 'base/helpers';
-@import 'base/form';
-@import 'base/layout';
-@import 'base/grid';
 
+@import 'layout/layout';
+@import 'layout/grid';
+@import 'layout/table';
+@import 'layout/form';
 
+@import 'pages/home';
 
-
-
-
+@import 'components/button';

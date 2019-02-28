@@ -54,7 +54,7 @@ $custom-grid--sm: (
     }
   }
 
-  .col-push-#{$i} {
+  .col-md-push-#{$i} {
     @include grid-media($custom-grid--md) {
       @include grid-push($i);
     }
@@ -74,7 +74,7 @@ $custom-grid--sm: (
     }
   }
 
-  .col-push-#{$i} {
+  .col-sm-push-#{$i} {
     @include grid-media($custom-grid--sm) {
       @include grid-push($i);
     }

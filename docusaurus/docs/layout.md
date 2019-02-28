@@ -2,9 +2,9 @@
 id: layout
 title: Layout
 ---
-[Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-layout-example/dionysos)
-
-[Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
+[![Edit @raketwebbyra/dionysos-typography-demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-layout-example/dionysos)
+[![Edit documentation](https://img.shields.io/badge/GITHUB-edit%20doc-green.svg)](https://github.com/DanielJohnsson87/raket-factory/blob/master/docusaurus/docs/layout.md)
+[![View source](https://img.shields.io/badge/GITHUB-view%20source-green.svg)](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
 
 I Dionysos finns en system för att hantera en hemsidas layout på ett konsekvent sätt.
 
@@ -29,7 +29,7 @@ så länge elementet håller avstånd till andra komponenter med `margin-top / m
 
 
 ### Exempel - Illustration
-![Layout illustration](assets/layout-illustration.png)
+![Layout illustration](https://raw.githubusercontent.com/DanielJohnsson87/raket-factory/master/docusaurus/docs/assets/layout-illustration.PNG)
 
 ### Exempel - Markup
 ```html
