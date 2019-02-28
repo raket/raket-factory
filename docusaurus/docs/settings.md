@@ -3,7 +3,7 @@ id: settings
 title: Settings
 ---
 
-Vi har samlat Dionysos grundläggande inställningar i filen `base/_settings.scss`.
+Vi har samlat Dionysos grundläggande inställningar i filen `utilities/_settings.scss`.
 Variablerna finns tillgängliga i samtliga .scss-filer och bör användas i så stor mån det är möjligt.
 
 Grundtanken i Dionysos är att typografin är det viktigaste elementet på hemsidan och att designen på övriga element därför
@@ -40,7 +40,7 @@ Textstorlekarna beräknas utifrån basvärdena ovan. Varje steg beräknas enligt
 
 `Mindre textstorlek = $base / $scale^n`
 
-För att kunna göra dessa beräkningar i Sass används ett mixin i `mixins/_math.scss` för att räkna fram `$scale`-variabelns potens (Dvs. 1.5 uphöjt till 2 osv.)
+För att kunna göra dessa beräkningar i Sass används ett mixin i `utilities/_math.scss` för att räkna fram `$scale`-variabelns potens (Dvs. 1.5 uphöjt till 2 osv.)
 
 
 ```scss

@@ -6,7 +6,7 @@ title: Easings
 
 [Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
 
-I `base/_easings.scss` finns ett antal olika easings definerade. Du kan [se dem här](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-easing-example/dionysos)
+I `utilities/_easings.scss` finns ett antal olika easings definerade. Du kan [se dem här](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-easing-example/dionysos)
 eller på [easings.net](https://easings.net/).
 
 
