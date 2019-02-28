@@ -5,7 +5,7 @@ title: Settings
 [![Edit documentation](https://img.shields.io/badge/GITHUB-edit%20doc-green.svg)](https://github.com/DanielJohnsson87/raket-factory/blob/master/docusaurus/docs/settings.md)
 [![View source](https://img.shields.io/badge/GITHUB-view%20source-green.svg)](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
 
-Vi har samlat Dionysos grundläggande inställningar i filen `base/_settings.scss`.
+Vi har samlat Dionysos grundläggande inställningar i filen `utilities/_settings.scss`.
 Variablerna finns tillgängliga i samtliga .scss-filer och bör användas i så stor mån det är möjligt.
 
 Grundtanken i Dionysos är att typografin är det viktigaste elementet på hemsidan och att designen på övriga element därför
@@ -32,9 +32,7 @@ $scale: 1.4;
 
 ## Typografi
 Variablerna `$font-primary` & `$font-secondary` används för att definera typsnitt för rubriker och brödtext.
-Det finns även variabler för att justera line-height för de olika typsnitten. Dionysos använder sig av [ex-enheten](https://www.w3schools.com/cssref/css_units.asp)
-för de webbläsare som har stöd för den. Poängen med ex-enheten är att typsnittens x-höjd skiljer sig mellan typsnitt och detta påverkar typografin.
-Med ex-enheten får vi mer kontroll över detta.
+Det finns även variabler för att justera line-height för de olika typsnitten. 
 
 Textstorlekarna beräknas utifrån basvärdena ovan. Varje steg beräknas enligt följande formler:
 
@@ -42,7 +40,7 @@ Textstorlekarna beräknas utifrån basvärdena ovan. Varje steg beräknas enligt
 
 `Mindre textstorlek = $base / $scale^n`
 
-För att kunna göra dessa beräkningar i Sass används ett mixin i `mixins/_math.scss` för att räkna fram `$scale`-variabelns potens (Dvs. 1.5 uphöjt till 2 osv.)
+För att kunna göra dessa beräkningar i Sass används ett mixin i `utilities/_math.scss` för att räkna fram `$scale`-variabelns potens (Dvs. 1.5 uphöjt till 2 osv.)
 
 
 ```scss

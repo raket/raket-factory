@@ -77,7 +77,7 @@ Gridet kan offseta en kolumn x antal kolumner genom att använda klasserna `.col
 
 
 ## Responsivitet
-Vill man modifiera gridet så går det att göra i filen `base/_grid.scss`. 
+Vill man modifiera gridet så går det att göra i filen `layout/_grid.scss`. 
 Variablerna `$custom-grid`, `$custom-grid-md` och `$custom-grid-sm` används för att styra breakpoints, gutters och dyl.
 Dessa variabler används längre ner i filen och räknar med hjälp av [Neat](https://neat.bourbon.io/) ut nya regler för gridet vid en viss brytpunkt.
 
@@ -119,7 +119,7 @@ Gridet används på mindre skärmar (480px och ner).
 
 
 ### Ändra antal kolumner eller gutter
-Det går att ändra gutter, kolumner och dyl genom att andra `$custom-grid`-variablerna i `base/_grid.scss`
+Det går att ändra gutter, kolumner och dyl genom att andra `$custom-grid`-variablerna i `layout/_grid.scss`
 
 `base/_grid.scss`
 ```scss
