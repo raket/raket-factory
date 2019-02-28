@@ -22,8 +22,8 @@ const users = [
 
 const siteConfig = {
   title: 'Raket Factory', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  tagline: 'Rakets interna designsystem',
+  url: 'http://factory.raket.nu', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -74,7 +74,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Raket Webbyrå`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

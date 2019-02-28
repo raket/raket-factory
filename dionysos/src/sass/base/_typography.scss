@@ -1,7 +1,6 @@
 /////////////////////////////////
 // Typography
 /////////////////////////////////
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Lato');
 
 body {
   font-size: $font-size-base;
@@ -16,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-primary;
+  font-family: $font-secondary;
   font-weight: bold;
 
   line-height: $line-height-heading;
@@ -27,37 +26,6 @@ h6 {
   * + & {
     margin-top: $spacing-xl;
   }
-}
-
-h1,
-.font-size--xxl {
-  font-size: $font-size-xxl;
-}
-
-h2,
-.font-size--xl {
-  font-size: $font-size-xl;
-}
-
-h3,
-h4,
-h5,
-h6,
-.font-size--l {
-  font-size: $font-size-l;
-}
-
-.font-size--base {
-  font-size: $font-size-base;
-}
-
-.font-size--s,
-small {
-  font-size: $font-size-s;
-}
-
-.font-size--xs {
-  font-size: $font-size-xs;
 }
 
 p {
@@ -139,4 +107,57 @@ code, kbd, pre, samp {
   padding: .1em .2em;
   margin: 0.1em; 
   padding: .25ex .75ch;
+}
+
+/////////////////////////////////
+// Sizes
+/////////////////////////////////
+
+h1,
+.font-size-xxl {
+  font-size: $font-size-xxl;
+}
+
+h2,
+.font-size-xl {
+  font-size: $font-size-xl;
+}
+
+h3,
+h4,
+h5,
+h6,
+.font-size-l {
+  font-size: $font-size-l;
+}
+
+.font-size-base {
+  font-size: $font-size-base;
+}
+
+.font-size-s,
+small {
+  font-size: $font-size-s;
+}
+
+.font-size-xs {
+  font-size: $font-size-xs;
+}
+
+/////////////////////////////////
+// Font variations
+/////////////////////////////////
+.font-primary {
+  font-family: $font-primary;
+}
+
+.font-secondary {
+  font-family: $font-secondary;
+}
+
+.line-height-base {
+  line-height: $line-height-base;
+}
+.line-height-heading {
+  line-height: $line-height-heading;
 }

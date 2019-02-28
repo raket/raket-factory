@@ -1,97 +1,57 @@
 ---
 id: typography
-title: Typography
+title: Typografi
 ---
 
-# OBS - Det här avsnittet stämmer inte och är inte klart!
-
-[Open in Codesandbox](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-typography-example/dionysos)
-
-[Go to GitHub](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
-
-Factory's default typography settings. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. Mauris non arcu felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem.
+[![Edit @raketwebbyra/dionysos-typography-demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-typography-example/dionysos)
+[![Edit documentation](https://img.shields.io/badge/GITHUB-edit%20doc-green.svg)](https://github.com/DanielJohnsson87/raket-factory/blob/master/docusaurus/docs/typography.md)
+[![View source](https://img.shields.io/badge/GITHUB-view%20source-green.svg)](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
 
 
-## Colors
-```scss
-$white: #FFFFFF;
-$black: #000000;
-$off-white: #EEEEEE;
-$off-black: #333333;
-$ghost-black: rgba($black, .1);
-$ghost-white: rgba($white, .1);
+## Textstorlekar
+Det finns css-klasser och scss variabler för de vanligaste textstorlekarna.
 
-$primary-color: #bd232d;
-$secondary-color: #FF5D00;
-```
+- **font-size-xxl**: Används av `<h1>`
+	- Css: `.font-size-xxl`
+	- Scss: `$font-size-xxl`
+	
+- **font-size-xl**: Används av `<h2>`
+	- Css: `.font-size-xl`
+	- Scss: `$font-size-xl`
+	- HTML: `<h2>`
+	
+- **font-size-l**: Används av `<h3> - <h4>`
+	- Css: `.font-size-l`
+	- Scss: `$font-size-l`
+	
+- **font-size-base**: Standardstorleken på sidan. Används i ex. brödtext
+	- Css: `.font-size-base`
+	- Scss: `$font-size-base`
+	
+- **font-size-s**
+	- Css: `.font-size-s`
+	- Scss: `$font-size-s`
+	
+- **font-size-xs**
+	- Css: `.font-size-xs`
+	- Scss: `$font-size-xs`
 
-## Font sizes
-```scss
-$tiny-size: 1.2rem;
-$small-size: 1.6rem;
-$medium-size: 2.6rem;
-$large-size: 3.4rem;
-$huge-size: 6.8rem;
 
-$base-line-height: 1.5;
-$heading-line-height: 1.25;
-```
+## Line height
+- **line-height-base**: Sätter line height på alla textelement förutom rubriker
+	- Css: `.line-height-base`
+	- Scss: `$line-height-base`
+- **line-height-heading**: Sätter line height på alla textelement rubriker
+	- Css: `.line-height-heading`
+	- Scss: `$line-height-heading`
 
-## Font stack
-```scss
-// Typography
-$base-fonts: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$heading-fonts: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-```
 
-## Headings
+## Typsnitt
+Det finns två variabler som används till att bestämma vilka typsnitt som ska användas.
+- **font-primary**: Det primära typsnittet på hemsidan. Används för brödtext och dyl.
+	- Css: `.font-primary`
+	- Scss: `$font-primary`
+- **font-secondary**: Det sekundära typsnittet på hemsidan. Används bland annat till rubriker.
+  - Css: `.font-secondary`
+  - Scss: `$font-secondary`
 
-Heading sizes are multiples of the `$font-base-size`. Fusce elit orci, efficitur ac ex eget, rutrum hendrerit sem. Mauris non arcu felis.
-
-```scss
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $heading-fonts;
-  line-height: $heading-line-height;
-  margin: 0 0 $small-spacing*1.5;
-  font-weight: bold;
-}
-
-h1 {
-  font-size: $font-base-size * 3.125;
-}
-
-h2 {
-  font-size: $font-base-size * 2.3125;
-}
-
-h3{
-  font-size: $font-base-size * 1.75;
-}
-
-h4, h5, h6 {
-  font-size: $font-base-size * 1.3125;
-}
-
-```
-
-## Links
-Links use the `$primary-color` as it's default color and darkens it 10% on `:hover` and `:active`.
-
-```scss
-a {
-  font-weight: bold;
-  text-decoration: none;
-  transition: color .25s ease;
-  color: $primary-color;
-
-  &:hover,
-  &:active {
-    color: darken($primary-color, 10%);
-  }
-}
-```
