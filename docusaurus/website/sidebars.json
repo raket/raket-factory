@@ -1,6 +1,7 @@
 {
   "docs": {
     "Dionysos": [
+      "folder-structure",
       "settings",
       "grid",
       "layout",
