@@ -1,5 +1,5 @@
 @import "../../../src/sass/style.scss";
-@import "../../../src/sass/base/easings";
+@import "../../../src/sass/utilities/easings";
 
 @mixin move ($animation_name, $ease) {
 	animation-name: #{$animation_name};
