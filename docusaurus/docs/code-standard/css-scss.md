@@ -1,10 +1,31 @@
 ---
-id: css-bem
-title: CSS BEM
+id: css-scss
+title: CSS & SCSS
 ---
 
 [![Edit documentation](https://img.shields.io/badge/GITHUB-edit%20doc-green.svg)](https://github.com/DanielJohnsson87/raket-factory/blob/master/docusaurus/docs/code-standard/css-bem.md)
 [![View source](https://img.shields.io/badge/GITHUB-view%20source-green.svg)](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
+
+
+## Namngivning
+
+### Variabler & Utilityklasser
+För att göra det tydligare vad en variabel css-klass fyller för funktion samt att göra det lättare att söka efter variabler
+följer vi dessa regler så gott det går. 
+- Det första ordet / orden beskriver vilket css attribut som påverkas. Exempelvis **font-size** i `$font-size-large`
+- Nästkommande ord beskriver hur css attributet ändras. Exempelvis **primary** `$color-primary` 
+
+
+### States & Hooks
+
+| Typ           | Prefix | Exempel         | Beskrivning  |
+| ------------- |:------:|:---------------:| :-----------:|
+| States        | is-    | `is-visible` eller `block__element--is-visible`  	 | Indikerar ett alternativt state på en modul. Exempelvis active eller selected.    |
+| JS hooks      | js-    | `js-toggle-menu`  | Används för att visa att en css-class är bunden till en JavaScript hook.    |
+
+
+
+## BEM
 
 1. Vi följer “Strict BEM”
     1. Endast ett “element” i varje selector. (.block__**element**—modifier)
@@ -14,14 +35,7 @@ title: CSS BEM
 3. Vi avgör själva när BEM inte passar för en modul.
 4. Vi använder oss av namespaces enligt nedanstående tabell
 
-## Namngivning
-
-| Typ           | Prefix | Exempel         | Beskrivning  |
-| ------------- |:------:|:---------------:| :-----------:|
-| States        | is-    | is-visible   	 | Indikerar ett alternativt state på en modul. Exempelvis active eller selected.    |
-| JS hooks      | js-    | js-toggle-menu  | Används för att visa att en css-class är bunden till en JavaScript hook.    |
-
-## Exempel
+### BEM - Exempel
 
 ```
 <div class="card">
@@ -49,13 +63,8 @@ title: CSS BEM
 	}
 }
 ```
-[Exempel med prefix](https://www.notion.so/6b7fa01564d546369e2308214d81b045)
 
-Airbnb’s CSS / SCSS guidelines verkar ganska bra. Kanske kan vara något?(CamelCase i selektorer kan vi strunta i, det är mer för React)
-
-[https://github.com/airbnb/css](https://github.com/airbnb/css)
-
-**Läs mer om BEM**
+### Läs mer om BEM
 
 [https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 
