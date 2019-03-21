@@ -1,15 +1,15 @@
 {
   "docs": {
     "Dionysos": [
-      "folder-structure",
       "settings",
       "grid",
       "layout",
       "typography",
-      "easings"
+      "easings",
+      "folder-structure"
     ],
     "Kodstandard": [
-      "code-standard/css-bem",
+      "code-standard/css-scss",
       "code-standard/javascript",
       "code-standard/wordpress",
       "code-standard/laravel"
