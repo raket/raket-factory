@@ -19,14 +19,14 @@ Variablen `$base` används i merparten av alla beräkningar som ska vara knutna 
 och definera gutter/avstånd mellan element i gridet.
 
 `$scale` används bland annat för att räkna fram hur typografin ska skala, dvs hur stora stegen är mellan en textstorlek och en annan.
-Med `$scale: 1.4` och `$base: 16px` skulle exempelvis stegen mellan textstorlekarna vara `16px`, `22.4px`, `31.36px`, `43.904px`.
+Med `$scale: 1.4` och `$base: 1.6rem (16px)` skulle exempelvis stegen mellan textstorlekarna vara `16px`, `22.4px`, `31.36px`, `43.904px`.
 (Textstorlek = $base * $scale^n. Där `n` är antal steg)
 
 ```scss
 /////////////////////////////////
 // Base values
 /////////////////////////////////
-$base: 16px;
+$base: 1.6rem;
 $scale: 1.4;
 ```
 
