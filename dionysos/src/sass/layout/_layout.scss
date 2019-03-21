@@ -4,11 +4,6 @@
 .section {
   padding: $spacing-xxl 0;
 
-  // The first section needs som extra spacing
-  &:first-of-type {
-    margin-top: $spacing-xxl;
-  }
-
   &--no-padding {
     padding: 0;
   }

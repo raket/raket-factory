@@ -19,7 +19,7 @@ som ska sträcka sig hela webbläsarens bredd. En `.section` kan innehålla fler
 
 ### `.container`
 Används för att hanterar midjan på sidan. `.container` har en max-bredd och är alltid horisontellt centrerad.
-Maxbredden går att justera med den globala variablen `$max-width` i `base/_settings.scss`. En `.container` kan innehålla flera `.component`-element.
+Maxbredden går att justera med den globala variablen `$max-width` i `utilities/_settings.scss`. En `.container` kan innehålla flera `.component`-element.
 
 ### `.component`
 Är det minsta men också mest mångsidiga layoutelementet. I stort sett är allting som ryms i ett `.container`-element
