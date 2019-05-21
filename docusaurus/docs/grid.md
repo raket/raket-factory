@@ -3,8 +3,8 @@ id: grid
 title: Grid
 ---
 [![Edit @raketwebbyra/dionysos-typography-demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-grid-example/dionysos)
-[![Edit documentation](https://img.shields.io/badge/GITHUB-edit%20doc-green.svg)](https://github.com/DanielJohnsson87/raket-factory/blob/master/docusaurus/docs/grid.md)
-[![View source](https://img.shields.io/badge/GITHUB-view%20source-green.svg)](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
+[![Edit documentation](https://img.shields.io/badge/GITHUB-edit%20doc-green.svg)](https://github.com/raket/raket-factory/blob/master/docusaurus/docs/grid.md)
+[![View source](https://img.shields.io/badge/GITHUB-view%20source-green.svg)](https://github.com/raket/raket-factory/tree/master/dionysos)
 
 Dionysos använder SASS-biblioteket [Bourbon Neat](https://neat.bourbon.io/) för att generera gridsystem.
 Vill du modifiera eller bygga vidare på gridet kan du läsa mer i deras [dokumentation](https://neat.bourbon.io/docs/latest/).

@@ -3,8 +3,8 @@ id: layout
 title: Layout
 ---
 [![Edit @raketwebbyra/dionysos-typography-demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/DanielJohnsson87/raket-factory/tree/dionysos-layout-example/dionysos)
-[![Edit documentation](https://img.shields.io/badge/GITHUB-edit%20doc-green.svg)](https://github.com/DanielJohnsson87/raket-factory/blob/master/docusaurus/docs/layout.md)
-[![View source](https://img.shields.io/badge/GITHUB-view%20source-green.svg)](https://github.com/DanielJohnsson87/raket-factory/tree/master/dionysos)
+[![Edit documentation](https://img.shields.io/badge/GITHUB-edit%20doc-green.svg)](https://github.com/raket/raket-factory/blob/master/docusaurus/docs/layout.md)
+[![View source](https://img.shields.io/badge/GITHUB-view%20source-green.svg)](https://github.com/raket/raket-factory/tree/master/dionysos)
 
 I Dionysos finns en system för att hantera en hemsidas layout på ett konsekvent sätt.
 
